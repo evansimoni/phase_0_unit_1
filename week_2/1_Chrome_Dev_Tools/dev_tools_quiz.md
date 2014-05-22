@@ -32,7 +32,7 @@ I can't figure out why I'm unable to tweak this text. I'll puzzle over it and co
   * What is the largest image on the website? 
   * Explain how you would find out this information, and list the URL of offending image here and how big it is.
 
-I couldn't confirm what the largest image on the site is. I used the search function to go through all of the .png files in the html and it appears that the background is made of an image. However, some images actually showed themselves and their dimensions when I moused over them in dev tools, which is why I'm not sure. I'll come back to this challenge and change my answer if I figure out a better way answer.
+I couldn't confirm what the largest image on the site is. I used the search function to go through all of the .png files in the html and it appears that the background is made of an image. However, some images actually showed themselves and their dimensions when I moused over them in dev tools, which is why I'm not sure. I'll come back to this challenge and change my answer if I figure out a better way answer. **UPDATE** I remembered I could sort the loaded items on the Network tab. The largest image is a photo of Times Square (316 kb). For some reason I was thinking I should be looking for the largest photo by pixel dimensions...! I guess that's why it's important to take a break and come back to stuff. :)
 
 * Test the www.ticketswizard.com website with google's [PageSpeed Insights](http://www.ticketswizard.com/).  (You can also download the chrome plugin).  What is the easiest thing to change to optimize the website?  How many kilobytes of data can be eliminated?
 
