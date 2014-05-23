@@ -5,7 +5,7 @@
 * What techniques will you try?
 * What is your overall plan for Phase 0?
 
-At this point, my biggest time management challenge during phase 0 has deciding when I will be completing the work for the week. I am still working 40 hours a week and, while I am able to accomplish some of the DBC stuff in my free time at work, it is tough to get even more done afterward because I am tired and less focused.
+At this point, my biggest time management challenge during phase 0 has been deciding when I will be completing the work for the week. I am still working 40 hours a week and, while I am able to accomplish some of the DBC stuff in my free time at work, it is tough to get even more done afterward because I am tired and less focused.
  
 It's looking like the weekends are going to be my most productive crunch times. Not to say that I will not be working during the weekdays. I have set aside times and locations each day after work for DBC work (cafes and libraries).
  
