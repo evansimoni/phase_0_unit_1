@@ -13,6 +13,10 @@ div {
     float: right;
     width: 45%;
 }
-footer {
-    clear: both;
+
+.reflection {
+	clear: both;
 }
+/*footer {
+    clear: both;
+}*/
