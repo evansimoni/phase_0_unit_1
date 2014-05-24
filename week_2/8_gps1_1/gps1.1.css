@@ -1,1 +1,18 @@
 /* include your css here */
+div {
+  padding: 15px;
+  background-color: lightblue;
+  color: darkblue;
+  font-family: "Helvetica";
+}
+.clayton {
+    float: left;
+    width: 45%;
+}
+.evan {
+    float: right;
+    width: 45%;
+}
+footer {
+    clear: both;
+}

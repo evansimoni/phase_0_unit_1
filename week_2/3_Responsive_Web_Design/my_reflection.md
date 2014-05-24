@@ -5,3 +5,8 @@
 * How do you think visually impaired people use the web? Can they? Should we design and development for them?
 * What ideas and concepts have resonated with you when learning about the web and design? What seems stupid or doesn't make sense?
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.
+
+Responsive web design is the approach one takes to building websites that will look good on any device. So far I have enojoyed learning about it and practicing converting a static site into a responsive one. I think it is good practice because it is an approach that aims to provide the best user experience no matter what platform a site is being viewed on. If done correctly it future-proofs a design to be compatible on devices that haven't been created yet.
+
+Smartphones and tablets have upended web design because they have introduced new common use cases to websites. Moving forward I think all websites will need to consider tablets and mobile as well as consider how their resoltuions might change while also compensating for web-enabled devices that haven't been invanted or aren't popular yet (wearables/google glass?)
+
