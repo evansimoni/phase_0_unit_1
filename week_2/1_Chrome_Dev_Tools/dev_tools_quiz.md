@@ -1,6 +1,6 @@
 #### Include an inline screenshot of your codeschool's points from the profile page:
 
-![Code School points screenshot](/imgs/codeschoolpoints.png)
+![Code School points screenshot](imgs/codeschoolpoints.png)
 
 <!-- Modify the Markdown to include your answers. Don't delete the questions! -->
 
