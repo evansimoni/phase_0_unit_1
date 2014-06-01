@@ -9,29 +9,36 @@ var terah = {
   height: 66,
   weight: 130,
   hairColor: "brown",
-  eyeColor: "brown"
+  eyeColor: "brown",
 }
 
 
 
 // __________________________________________
 // Write your code below.
-
-
-
-
-
-
-
+var adam = {}
+adam.name = "Adam";
+terah.spouse = adam;
+terah.weight = 125;
+delete terah.eyeColor;
+terah.spouse.spouse = terah;
+terah.children = {};
+terah.children.carson = {name: "Carson"};
+terah.children.carter = {name: "Carter"};
+terah.children.colton = {name: "Colton"};
+adam.children = terah.children;
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
-// 
-// 
-// 
-// 
-// 
+// This challemge was particularily difficult for me to grasp at first. Maybe the instructions weren't clear or maybe I didn't
+// understand what they meant but I ended up doing some reading before I could get started. W3C schools had a good description
+// of object literal notation that led me to how tog et started with the assignment. I was confused for a long time by trying
+// to read the verbal descriptions for each test, and finally realized that looking into the code needed to pass the test was
+// much easier than trying to translate the words. It didn't help that the test points on the github page didn't match up 
+// // with those that were in the file. I also got hung up at the poitn where I had to chain together multiple properties. I
+// think the abstraction was more than I expected, and I was fuzzy on seperating the pieces of terminology (object, property, 
+//   value). After worting my way through the test, I can say i feel confident with the learning properties, although it will
+// take a lot more practice before I am 'comfortable' with them.
 
 
 // __________________________________________
