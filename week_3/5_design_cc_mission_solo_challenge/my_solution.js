@@ -1,6 +1,6 @@
 // This is a solo challenge
 
-// Your mission description:
+// Design your mission ---------------
 
 // Objects: Knight, Princess, Ogre, Bridge, River
 
@@ -21,50 +21,73 @@
 // Chop/Attack (Knight)
 // Drown (Ogre)
 
-// Pseudocode
+// Pseudocode ------------------
+
+// define Yell
+// define runRight
+// define waddleRight
+// define chop
+// define drown
 
 // Knight Object
-// Running Speed 10
-// Health 20
+// Speed 10
+// Health 100
 
 // Princess Object
-// Running Speed 9
+// Speed 9
 // Health 20
 
 // Ogre Object
-// Waddling Speed 5
+// Speed 5
 // Health 30
 
-// Initial Code
+// Bridge Object
+// Health 1000
 
-var yell = function() {
+// Initial Code ---------------
+function yell() {
 	console.log('Princess! Come with me! Run!')
-};
-
-var runRight = function() {
-	movement: 10
-};
-
-var waddleRight = function() {
-	movement: 1
+}
+function runRight() {
+	this.xposition +10;
+}
+function waddleRight() {
+	this.xposition +10;
+}
+function chop() {
+	this.damage +100;
+}
+function drown() {
+	this.health -1000;
+}
+var knight = {
+	speed: 10,
+	health: 100
+}
+var princess = {
+	speed: 9,
+	health: 100
+} 
+var ogre = {
+	speed: 5,
+	health: 200
+}
+var bridge = {
+	health: 1000;
 }
 
+// Refactored Code --------------
+// I can't find anything to refactor :(
 
-
-
-// Refactored Code
-
-
-
-
-
-
-// Reflection
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
+// Reflection -----------------------
+// This challenge has been terribly confusing. I felt lost for most of the time because the
+// directions aren;t clear. I think this challenge would be better if there were more restrictions
+// imposed--I just feel like there are too many directions to take and I have my doubts about 
+// whether anyting I made here is correct or workable in a game on codecombat. It also doesn't help
+// that codecombat is not totally transparent about how the pieces of the game interact. I'm not at all
+// sure if anything I did in the challenge could be used to create the game I have envisioned, there 
+// just hasn;t been enough instruction or examples for me to have figured it out at the point. I had tons
+// of questions while working on this, primarily 'what am I doing' XD. I'm alos wondering if I created
+// enough functions and objects to make my game work within the context of codecombat. I'm curious to
+// understand if my objects need more properties and how I would make them interatc with the methods I
+// have written (or still need to write)
