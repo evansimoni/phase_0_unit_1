@@ -45,8 +45,14 @@ shows the status of files in the staging area as compared to the working directo
 ## Release 4: Git Workflow
 
 - Push files to a remote repository
+	git push
 - Fetch changes
+	git fetch upstream
+	git branch (master)
+	git merge/upstream master
 - Commit locally
+	git add -A
+	git commit -m "note"
 
 ## Release 5: Errors you encountered
 1. Error
@@ -54,3 +60,4 @@ shows the status of files in the staging area as compared to the working directo
 3. Cause (explain the error)
 
 ## Release 6: Reflection
+This challenge was as difficult as I was anticipating. I had neglected to learn git in he command line to this point and was kind of dreading it. I was just afraid that things might not work when I can't see them visually and click commit and sync like I had been doing with the github app. Fortunately I met up with one of my cohort mates (Pat Menzel) who walked me through the steps one by one and talked about why they made sense. I went to him because I was nervous that I would mess things up. Once he showed me the basics of add, commit and push on his computer I gained some confidence and tried them on mine, then verfiried that it had worked by checking my repo on github. After that I took the liberty to learn fetch, branch and merge on my own and verified that i had the latest changes from DBC (I did). I am confident with the objectives although I will probably need to double check the directions for pulling repos and syncing changes a few more times before it is comitted to memory.
