@@ -35,11 +35,11 @@
 
 // Princess Object
 // Speed 9
-// Health 20
+// Health 100
 
 // Ogre Object
 // Speed 5
-// Health 30
+// Health 200
 
 // Bridge Object
 // Health 1000
@@ -55,7 +55,7 @@ function waddleRight() {
 	this.xposition +10;
 }
 function chop() {
-	this.damage +100;
+	this.damage +1000;
 }
 function drown() {
 	this.health -1000;
